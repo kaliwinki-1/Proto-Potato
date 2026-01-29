@@ -1,0 +1,58 @@
+🏴‍☠️ ProtoPirate TX Enabler Guide
+This repository provides instructions and modified source files to enable the Transmission (TX) and Emulation features in the ProtoPirate application for the Flipper Zero.
+
+📌 Context
+By default, many forks of ProtoPirate have the transmission capabilities disabled in the source code. This is often done to comply with app store regulations or to prevent unauthorized use of certain radio protocols. To use the app for security research (such as car key fob emulation), the code must be manually modified and recompiled.
+
+🛠 Modifications Performed
+To unlock the full potential of the app, three critical changes were made across two files.
+
+1. Enabling the Emulation Feature
+File: protopirate_app_i.h
+
+The preprocessor directive that controls the emulation logic was disabled (commented out). We have activated it by removing the comment slashes.
+
+Change: #define ENABLE_EMULATE_FEATURE is now active.
+
+Result: The application logic for signal emulation is now included during the compilation process.
+
+2. Updating Hardware Permissions
+File: application.fam
+
+The Flipper Zero operating system (Horizon/Furi) requires explicit permission for an app to access the radio hardware for transmission.
+
+Change: Added "subghz" to the requires array: requires=["gui", "subghz"].
+
+Result: Grants the application the necessary system hooks to interface with the Sub-GHz CC1101 chip for TX.
+
+3. Adjusting Memory Allocation
+File: application.fam
+
+Emulating complex rolling codes and radio protocols is resource-intensive. The default stack size is often insufficient for these operations.
+
+Change: Increased stack_size from 2 * 1024 to 8 * 1024.
+
+Result: Prevents system crashes and "Out of Memory" errors when the app processes signal transmission.
+
+🚀 How to Install
+Prerequisites
+A Flipper Zero with a custom firmware (Unleashed, RogueMaster, or Momentum).
+
+The fbt (Flipper Build Tool) or ufbt installed on your computer.
+
+Installation Steps
+Clone the Repository:
+
+Bash
+git clone https://github.com/YourUsername/protopirate-tx-enabled.git
+cd protopirate-tx-enabled
+Replace Files: Ensure that the modified protopirate_app_i.h and application.fam provided in this guide replace the original ones in the source folder.
+
+Compile the App: Run the following command in your terminal:
+
+Bash
+./fbt fap_proto_pirate
+Deploy to Flipper: Connect your Flipper Zero via USB and copy the resulting .fap file (located in build/f7-unv/applications_user/) to your SD card under apps/Sub-GHz/.
+
+⚠️ Disclaimer
+This project is for educational and security research purposes only. Using this tool to interact with systems you do not own is illegal. Use responsibly.
