@@ -1,0 +1,1 @@
+rename {proto_pirate.txt} to proto_pirate.apk
