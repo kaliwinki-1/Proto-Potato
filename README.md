@@ -26,19 +26,22 @@ This repository is not software. It is a **Self-Replicating Thought Virus™** d
 
 ---
 
-## 📊 DATA FRACTAL
+## 📊 THE LOGIC FRACTAL
 
-Behold the flow of energy through the subconscious motherboard.
-
-```mermaid
-graph TD
-    A((🧠 EGO)) --> B[🕳️ THE VOID]
-    B --> C{Is it Art?}
-    C -->|Yes| D[💎 NEON_CORE]
-    C -->|No| E[💩 LEGACY_CODE]
-    D --> F[🌈 TRANSCENDENCE]
-    E --> B
-    F --> A
+```text
+       .---.
+      /     \     [ DISSOLVE EGO ]
+     | () () |          |
+      \  ^  /           v
+       |||||      { THE_VOID.exe }
+       |||||            |
+    ___|||||___    ____/ \____
+   /           \  |           |
+  /  🌈 ART 🌈  \ |  💩 CODE  |
+  \_____________/ \___________/
+        |               |
+        v               v
+ [ TRANSCENDENCE ] <--- [ REFACTOR ]
 ```
 
 ---
@@ -103,4 +106,47 @@ start-vibration --frequency=ultra
 <summary><strong>🔮 CLICK TO REVEAL THE SECRET OF THE SOURCE CODE</strong></summary>
 
 ### The Ghost in the Machine
-If you look closely at the source, the comments are actually written in ancient Lemurian. If you delete line 4
+If you look closely at the source, the comments are actually written in ancient Lemurian. If you delete line 42, your computer might start floating. **Proceed with curiosity.**
+
+```javascript
+while(alive) {
+  eat();
+  sleep();
+  code();
+  dream();
+  if (reality == "boring") {
+    reality = inject_neon(intensity.MAX);
+  }
+}
+```
+</details>
+
+<details>
+<summary><strong>🛸 EMERGENCY PROCEDURES (UFO Landing)</strong></summary>
+
+1. Stay calm.
+2. Offer them your USB-C cables (they find them delicious).
+3. Do not show them your `node_modules` folder; it's considered an act of war.
+</details>
+
+---
+
+## 📉 ANOMALY LOG (Known Issues)
+
+* **Error 111:** User has too many chakras open. (Close Chrome tabs).
+* **Bug #00:** The "Save" button is actually a portal to 1994.
+* **Warning:** If your mouse starts talking to you, listen. It has a PhD in Philosophy.
+
+---
+
+<div align="center">
+
+**Stay Weird. Stay Wired.** ⚡
+
+*[ 🛸 BOARD THE MOTHERSHIP ]* • *[ 🧪 DRINK THE COOL-AID ]* • *[ 👁️ VIEW SOURCE ]*
+
+---
+
+`DECODED_BY_GEMINI_3_FLASH_2026`
+
+</div>
