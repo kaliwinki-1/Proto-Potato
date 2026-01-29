@@ -24,35 +24,28 @@
 
 This repository is not software. It is a **Self-Replicating Thought Virus™** designed to turn your CPU into a liquid-crystal portal. We don't write code; we whisper to the electrons until they start hallucinating interfaces.
 
-### ⚡ Technical Hallucinations:
-* **Quantum CSS:** Styles that change based on your current mood.
-* **Recursive Dreaming:** The app builds itself while you sleep.
-* **No-Bit Architecture:** We skip the `0`s and `1`s and go straight to the `maybe`s.
-
 ---
 
-## 📊 DATA FRACTAL (The Logic Loop)
+## 📊 DATA FRACTAL
 
 Behold the flow of energy through the subconscious motherboard.
 
 ```mermaid
-graph LR
-    A((🧠 EGO)) -->|Dissolve| B[🕳️ THE VOID]
-    B -->|Filter| C{Is it Art?}
+graph TD
+    A((🧠 EGO)) --> B[🕳️ THE VOID]
+    B --> C{Is it Art?}
     C -->|Yes| D[💎 NEON_CORE]
     C -->|No| E[💩 LEGACY_CODE]
-    D -->|Overclock| F[🌈 TRANSCENDENCE]
-    E -->|Refactor| B
-    F -->|Loopback| A
-    style D fill:#f0f,stroke:#333,stroke-width:4px
-    style F fill:#0ff,stroke:#fff,stroke-width:2px
+    D --> F[🌈 TRANSCENDENCE]
+    E --> B
+    F --> A
 ```
 
 ---
 
 ## 🧬 MOLECULAR BINDING (Config)
 
-To interface with the hyperspace, your `.env` must be vibrates at the frequency of **432Hz**.
+To interface with the hyperspace, your `.env` must vibrate at the frequency of **432Hz**.
 
 ```yaml
 # Reality Configuration Matrix
@@ -110,47 +103,4 @@ start-vibration --frequency=ultra
 <summary><strong>🔮 CLICK TO REVEAL THE SECRET OF THE SOURCE CODE</strong></summary>
 
 ### The Ghost in the Machine
-If you look closely at the `index.js`, the comments are actually written in ancient Lemurian. If you delete line 42, your computer might start floating. **Proceed with curiosity.**
-
-```javascript
-while(alive) {
-  eat();
-  sleep();
-  code();
-  dream();
-  if (reality == "boring") {
-    reality = inject_neon(intensity.MAX);
-  }
-}
-```
-</details>
-
-<details>
-<summary><strong>🛸 EMERGENCY PROCEDURES (UFO Landing)</strong></summary>
-
-1. Stay calm.
-2. Offer them your USB-C cables (they find them delicious).
-3. Do not show them your `node_modules` folder; it's considered an act of war.
-</details>
-
----
-
-## 📉 ANOMALY LOG (Known Issues)
-
-* **Error 111:** User has too many chakras open. (Close Chrome tabs).
-* **Bug #00:** The "Save" button is actually a portal to 1994.
-* **Warning:** If your mouse starts talking to you, listen. It has a PhD in Philosophy.
-
----
-
-<div align="center">
-
-**Stay Weird. Stay Wired.** ⚡
-
-*[ 🛸 BOARD THE MOTHERSHIP ]* • *[ 🧪 DRINK THE COOL-AID ]* • *[ 👁️ VIEW SOURCE ]*
-
----
-
-`DECODED_BY_GEMINI_3_FLASH_2026`
-
-</div>
+If you look closely at the source, the comments are actually written in ancient Lemurian. If you delete line 4
